@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">MyHome</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_alert">AlertActivity</string>
+    <string name="title_activity_alert_action_bar">Alert</string>
+    <string name="intrusion_detected">Intrusion Detected</string>
+    <string name="alert_intrusion">Intrusion Detected</string>
+    <string name="date">Date: </string>
+    <string name="room">Room:</string>
+    <string name="device_registered">Device is registered</string>
+    <string name="get_parameters">Get Parameters</string>
+    <string name="register">Register</string>
+    <string name="title_activity_home_screen">HomeScreenActivity</string>
+
+    <string name="get_data">Get Data</string>
+    <string name="error_connecting_to_server">Error Connecting to Server</string>
+    <string name="insert_ip_your_edison">Register Device on server, Insert Ip Address of your Edison</string>
+    <string name="temperature">Temperature</string>
+    <string name="light">Light</string>
+    <string name="air_quality">Air Quality</string>
+    <string name="refresh_data">Refresh Data</string>
+    <string name="details">Details</string>
+    <string name="home">"Home: "</string>
+    <string name="camera">Camera</string>
+    <string name="show_your_homes">Show Your Homes</string>
+    <string name="title_activity_home_settings">HomeSettingsActivity</string>
+    <string name="title_home_list">Homes</string>
+    <string name="title_home_detail">Home Detail</string>
+    <string name="home_created">Home Created</string>
+    <string name="home_not_created">Home not created</string>
+    <string name="title_activity_edit_or_create_actvity">EditOrCreateActvity</string>
+    <string name="save">Save</string>
+    <string name="home_name_required">Home name is required!</string>
+    <string name="address_required">Address of server is required!</string>
+</resources>

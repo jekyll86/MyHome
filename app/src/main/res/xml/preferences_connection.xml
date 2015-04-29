@@ -1,0 +1,21 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:title="Renew GCM ID"
+        android:summary="Renew GCM ID"
+        android:key="reloadGcmId" />
+
+    <EditTextPreference android:title="GCM_ID"
+        android:key="registration_id"
+        android:summary="Google Cloud Message RegID"
+        android:editable="false"
+        >
+    </EditTextPreference>
+
+
+
+
+    <EditTextPreference android:title="Edison IP"
+        android:key="edison_ip"
+        android:summary="Please provide your Edison IP"></EditTextPreference>
+</PreferenceScreen>

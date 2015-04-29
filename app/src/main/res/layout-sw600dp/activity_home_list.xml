@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp" android:baselineAligned="false"
+    android:divider="?android:attr/dividerHorizontal" android:orientation="horizontal"
+    android:showDividers="middle"
+    tools:context="com.jeckyll86.xenont.myhome.frontend.activity.home.HomeListActivity">
+
+    <!--
+    This layout is a two-pane layout for the Homes
+    master/detail flow.
+    
+    -->
+
+    <fragment android:id="@+id/home_list"
+        android:name="com.jeckyll86.xenont.myhome.frontend.fragment.home.HomeListFragment"
+        android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"
+        tools:layout="@android:layout/list_content" />
+
+    <FrameLayout android:id="@+id/home_detail_container" android:layout_width="0dp"
+        android:layout_height="match_parent" android:layout_weight="3" />
+
+</LinearLayout>
+
+    <ImageButton
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:src="@drawable/plus"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:tint="@android:color/white"
+        android:id="@+id/create_new_home_fab"
+        android:elevation="1dp"
+        android:background="@drawable/ripple"
+        android:stateListAnimator="@anim/fab_anim"
+        />
+</RelativeLayout>
